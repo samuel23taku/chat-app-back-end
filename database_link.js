@@ -1,7 +1,7 @@
 const mariadb = require("mariadb");
 
 const pool = mariadb.createPool({
-  user: "tacool",
+  user: "user",
   password: "password",
   database: "ChatApp",
   connectionLimit: 5,
